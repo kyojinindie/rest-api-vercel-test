@@ -4,7 +4,7 @@ GET /health HTTP/1.1
 Host: localhost:8000
 
 ###
-POST http://localhost:8000/api/query
+POST http://localhost:8000/api/v1/text-davinci-003
 Content-Type: application/json
 OPENAI-API-KEY: my-openai-key
 
